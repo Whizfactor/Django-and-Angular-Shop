@@ -8,7 +8,7 @@ import {PagesModule} from './pages/pages.module';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, PagesModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
